@@ -71,3 +71,41 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Serverless document chat application",
+    des: "This application allows you to ask natural language questions of any PDF document you upload",
+    img: "/projects/serverless-chat-app-ai.png",
+    iconList: [
+      "/icons/re.svg",
+      "/icons/tail.svg",
+      "/icons/nodejs.svg",
+      "/icons/ts.svg",
+      "/icons/javascript.svg",
+      "/icons/Lambda.svg",
+      "/icons/pinecone-db.svg",
+      "/icons/dynamodb.svg",
+      "/icons/amazon-web-services.svg"
+    ],
+    link: "",
+    github: "https://github.com/pushpsood/PDFGenAIChatBot",
+  },
+  {
+    id: 2,
+    title: "Infoherd: News and Entertainment website",
+    des: "Infoherd provides you with refreshing articles to entertain, refresh everyone",
+    img: "/projects/infoherd.jpg",
+    iconList: [
+      "/icons/wordpress.svg",
+      "/icons/google-cloud.svg",
+      "/icons/cloud_sql.svg",
+      "/icons/file-type-php.svg",
+      "/icons/cloudflare.svg"
+    ],
+    link: "",
+    github: "",
+  }
+];
+
