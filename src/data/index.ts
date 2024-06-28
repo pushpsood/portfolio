@@ -1,6 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -108,4 +109,54 @@ export const projects = [
     github: "",
   }
 ];
+
+export const experience = [
+  {
+    id: 1,
+    title: "Software Development Engineer",
+    company: "Industrility",
+    duration: "January 2024 - March 2024",
+    desc: "After-sales platform for manufacturers, distributors, builders, integrators. Worked on" +
+        "comprehensive serverless stack and build efficient tools for monitoring and backup.",
+    thumbnail: "/experience/industrility.jpeg",
+  },
+  {
+    id: 2,
+    title: "Software Development Engineer",
+    company: "Amazon",
+    duration: "August 2021 - December 2023",
+    desc: "Worked with Alexa where I owned the \"speechlet\" – a rule engine designed to guide the flow of disambiguation and entity resolution from intricate selections. " +
+        "Post that worked on service catering to HR employees, enabling them to submit pay adjustments for staff across the world. My responsibilities extended to managing" +
+        " the sensitive financial and personal data of employees.",
+    thumbnail: "/experience/amazon.svg",
+  },
+  {
+    id: 3,
+    title: "Software Development Intern",
+    company: "Amazon",
+    duration: "Jan 2021 - July 2021",
+    desc: "I got exposure to wide variety of tools and help from one of the most knowledgable developer community. " +
+        "This internship made made me incredibly efficient while working and helped me tackle ambiguous & and complex problems with structure.",
+    thumbnail: "/experience/amazon.svg",
+  },
+  {
+    id: 4,
+    title: "Cloud Architect and Developer",
+    duration: "March 2020 - April 2020",
+    company: "Upwork",
+    desc: "Tested my limits and verified I can work on projects at scale. Upwork gave me the platform to take this challenge, " +
+        "experience the pressure of deadlines, and test my skills in realistic circumstances.",
+    thumbnail: "/experience/upwork.svg",
+  },
+  {
+    id: 5,
+    title: "Founder",
+    duration: "Jan 2019 - Jan 2021",
+    company: "Infoherd",
+    desc: "Brain behind InfoHerd, scaled the platform to easily serve an audience of 1 Million using autoscaling. " +
+        "Started from shared host to then finally settling with GCP infra.",
+    thumbnail: "/experience/infoherd.png",
+  }
+];
+
 

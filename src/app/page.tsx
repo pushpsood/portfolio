@@ -5,6 +5,7 @@ import Hero from "@/src/components/Hero";
 import {FloatingNav} from "@/src/components/ui/FloatingNav";
 import Grid from "@/src/components/Grid"
 import Projects from "@/src/components/Projects";
+import Experience from "@/src/components/Experience";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
                 <Hero />
                 <Grid />
                 <Projects />
+                <Experience />
             </div>
         </main>
     );
