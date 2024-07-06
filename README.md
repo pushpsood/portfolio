@@ -1,25 +1,39 @@
-This is my portfolio made using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
 
-## Getting Started
+Welcome my personal portfolio. <br/>
+Live URL: [www.pushpsood.com](https://www.pushpsood.com)
 
-Running the development server:
+## Screenshot
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+![Portfolio ScreenShot](https://github.com/pushpsood/portfolio/blob/master/public/pushp_sood_portfolio.png?raw=true)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Built With
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- React
+- NextJS
+- TypeScript
+- Three.js
+- Tailwind CS
+- Aceternity UI
+- Vercel
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Site Components:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Floating Nav
+- Hero
+- About
+- Projects
+- Experience
+- Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Useful Link
+
+- [Tailwind CSS Docs](https://tailwindcss.com/docs/installation)
+- [Aceternity UI Docs](https://ui.aceternity.com/components)
+
+## Author
+
+Pushp Sood
+
+- GitHub - [@pushpsood](https://github.com/pushpsood)
+- LinkedIn - [@pushpsood](https://www.linkedin.com/in/pushpsood/)

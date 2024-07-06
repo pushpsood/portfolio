@@ -8,21 +8,17 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "",
-    description: "With over 3 years of experience in building robust and scalable solutions, I bring a wealth of expertise in backend development. As a Software Development Engineer (SDE), I am driven by the ambition to drive impactful change and create positive transformations through technology.\n" +
-        "\n" +
-        "My deep expertise in cloud technologies enables me to architect high-quality solutions that meet modern demands. My professional journey includes working as an SDE at Amazon, freelancing, and contributing to startups, equipping me with the adaptability to thrive in fast-paced and dynamic environments.\n" +
-        "\n" +
-        "I am actively seeking new opportunities to apply my skills and knowledge, aiming to make a meaningful impact in the tech industry. Let's connect and explore how I can contribute to your team's success.",
+    title: "About Me",
+    description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b1.svg",
+    titleClassName: "justify-start",
+    img: "",
     spareImg: "",
   },
   {
     id: 2,
-    title: "I'm experienced working with global teams",
+    title: "Experienced working with global teams",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2 min-h-52",
     imgClassName: "",
@@ -50,10 +46,9 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b2.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a Soccer Live Score Tracker",
+    title: "Currently developing an AI model to predict optimal routes that avoid roads within a defined perimeter.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -80,15 +75,51 @@ export const projects = [
     des: "This application allows you to ask natural language questions of any PDF document you upload",
     img: "/projects/serverless-chat-app-ai.png",
     iconList: [
-      "/icons/re.svg",
-      "/icons/tail.svg",
-      "/icons/nodejs.svg",
-      "/icons/ts.svg",
-      "/icons/javascript.svg",
-      "/icons/Lambda.svg",
-      "/icons/pinecone-db.svg",
-      "/icons/dynamodb.svg",
-      "/icons/amazon-web-services.svg"
+      {
+        id: 1,
+        name: "React",
+        image: "/icons/re.svg",
+      },
+      {
+        id: 2,
+        name: "Node",
+        image: "/icons/nodejs.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        image: "/icons/tail.svg",
+      },
+      {
+        id: 4,
+        name: "TypeScript",
+        image: "/icons/ts.svg",
+      },
+      {
+        id: 5,
+        name: "Javascript",
+        image: "/icons/javascript.svg",
+      },
+      {
+        id: 6,
+        name: "Lambda",
+        image: "/icons/Lambda.svg",
+      },
+      {
+        id: 7,
+        name: "PineconeDB",
+        image: "/icons/pinecone-db.svg",
+      },
+      {
+        id: 8,
+        name: "DynamoDB",
+        image: "/icons/dynamodb.svg",
+      },
+      {
+        id: 9,
+        name: "AWS",
+        image: "/icons/amazon-web-services.svg",
+      }
     ],
     link: "",
     github: "https://github.com/pushpsood/PDFGenAIChatBot",
@@ -99,11 +130,31 @@ export const projects = [
     des: "Infoherd provides you with refreshing articles to entertain, refresh everyone",
     img: "/projects/infoherd.jpg",
     iconList: [
-      "/icons/wordpress.svg",
-      "/icons/google-cloud.svg",
-      "/icons/cloud_sql.svg",
-      "/icons/file-type-php.svg",
-      "/icons/cloudflare.svg"
+      {
+        id: 1,
+        name: "Wordpress",
+        image: "/icons/wordpress.svg",
+      },
+      {
+        id: 2,
+        name: "Google Cloud",
+        image: "/icons/google-cloud.svg",
+      },
+      {
+        id: 3,
+        name: "SQL",
+        image: "/icons/cloud_sql.svg",
+      },
+      {
+        id: 4,
+        name: "PHP",
+        image: "/icons/file-type-php.svg",
+      },
+      {
+        id: 5,
+        name: "CDN",
+        image: "/icons/cloudflare.svg",
+      }
     ],
     link: "",
     github: "",
@@ -171,5 +222,3 @@ export const socialMedia = [
     img: "/link.svg",
   },
 ];
-
-
