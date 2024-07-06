@@ -5,7 +5,7 @@ Live URL: [www.pushpsood.com](https://www.pushpsood.com)
 
 ## Screenshot
 
-![Portfolio ScreenShot](https://github.com/pushpsood/portfolio/blob/master/public/pushp_sood_portfolio.png?raw=true)
+![Portfolio ScreenShot](https://github.com/pushpsood/portfolio/blob/master/public/pushp_sood_portfolio.jpg?raw=true)
 
 ## Built With
 
