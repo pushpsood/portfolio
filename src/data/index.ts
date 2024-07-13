@@ -72,7 +72,7 @@ export const projects = [
   {
     id: 1,
     title: "Serverless document chat application",
-    des: "This application allows you to ask natural language questions of any PDF document you upload",
+    des: "This application allows you to ask natural language questions of any PDF document you upload. Test User: ",
     img: "/projects/serverless-chat-app-ai.png",
     iconList: [
       {
@@ -121,7 +121,7 @@ export const projects = [
         image: "/icons/amazon-web-services.svg",
       }
     ],
-    link: "",
+    link: "https://chatdoc.pushpsood.com/",
     github: "https://github.com/pushpsood/PDFGenAIChatBot",
   },
   {
