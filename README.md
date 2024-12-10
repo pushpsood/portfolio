@@ -37,6 +37,6 @@ Pushp Sood
 - GitHub - [@pushpsood](https://github.com/pushpsood)
 - LinkedIn - [@pushpsood](https://www.linkedin.com/in/pushpsood/)
 
-# Running Dev Server
+## Running Dev Server
 
 npm run dev  
