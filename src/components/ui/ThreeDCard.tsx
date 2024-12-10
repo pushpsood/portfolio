@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "./3d-card";
+import { CardBody, CardContainer, CardItem } from "./3dCard";
 import Link from "next/link";
 import { Tooltip } from "@nextui-org/tooltip";
 

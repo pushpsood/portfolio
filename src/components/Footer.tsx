@@ -15,7 +15,7 @@ const Footer = () => {
   }, [state.succeeded]);
 
   return (
-      <footer className="w-full pt-20 pb-10" id="contact">
+      <footer className="w-full pt-20 pb-10 relative" id="contact">
         <div className="flex flex-col items-center">
           <h1 className="heading lg:max-w-[45vw]">Get in touch</h1>
           <p className="text-white-200 md:mt-10 my-5 text-center lg:max-w-[45vw]">

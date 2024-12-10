@@ -13,9 +13,8 @@ Live URL: [www.pushpsood.com](https://www.pushpsood.com)
 - NextJS
 - TypeScript
 - Three.js
-- Tailwind CS
+- Tailwind CSS
 - Aceternity UI
-- Vercel
 
 ## Site Components:
 
@@ -37,3 +36,7 @@ Pushp Sood
 
 - GitHub - [@pushpsood](https://github.com/pushpsood)
 - LinkedIn - [@pushpsood](https://www.linkedin.com/in/pushpsood/)
+
+# Running Dev Server
+
+npm run dev  

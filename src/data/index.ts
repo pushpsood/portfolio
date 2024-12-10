@@ -1,8 +1,38 @@
-export const navItems = [
+export const navItemsHome = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
+];
+
+
+export const navItemsLinks = [
+  { name: "Know More", link: "/" },
+];
+
+export const socialList = [
+  { name: "GitHub Projects", link: "https://github.com/pushpsood",
+    description: "Explore my open-source projects and contributions on GitHub.", icon: "/icons/github.svg" },
+  { name: "LinkedIn Profile", link: "https://www.linkedin.com/in/pushpsood/",
+    description: "Connect with me professionally on LinkedIn.", icon: "/icons/linkedin.svg" },
+  { name: "LeetCode Challenges", link: "https://leetcode.com/u/pushpsood27/",
+    description: "Check out my coding challenges and solutions on LeetCode.", icon: "/icons/leetcode.svg" },
+  { name: "Tech Tutorials", link: "https://www.youtube.com/@PushpSoodSde",
+    description: "Watch my software development tutorials and tech videos.", icon: "/icons/youtube.svg" },
+  { name: "Tech Blogs", link: "https://pushpsood.medium.com",
+    description: "Read my articles on software development and technology.", icon: "/icons/medium.svg" },
+  { name: "Infoherd Channel", link: "https://www.youtube.com/@infoherd",
+    description: "Subscribe to Infoherd for insightful content.", icon: "/icons/youtube.svg" },
+  { name: "Personal Vlogs", link: "https://www.youtube.com/@PushpSood",
+    description: "Follow my personal life updates and vlogs.", icon: "/icons/youtube.svg" },
+  { name: "Badminton Highlights", link: "https://www.youtube.com/@PushpPlayingBadminton",
+    description: "Watch my badminton games and highlights.", icon: "/icons/youtube.svg" },
+  { name: "Instagram Tech Updates", link: "https://www.instagram.com/pushpsoodsde/",
+    description: "Follow me on Instagram for tech updates and more.", icon: "/icons/instagram.svg" },
+  { name: "Creative Edits", link: "https://www.instagram.com/actualorigin",
+    description: "Check out my creative edits and projects on Instagram.", icon: "/icons/instagram.svg" },
+  { name: "X.com Updates", link: "https://x.com/imPUSHPs",
+    description: "Stay updated with my latest posts on X.com.", icon: "/icons/x.svg" },
 ];
 
 export const gridItems = [
@@ -72,7 +102,8 @@ export const projects = [
   {
     id: 1,
     title: "Serverless document chat application",
-    des: "This application allows you to ask natural language questions of any PDF document you upload. Test User: ",
+    des: "This application allows you to ask natural language questions of any PDF document you upload. " +
+        "User: \"test@pushpsood.com\"  Pass: \"testTEST123@\" ",
     img: "/projects/serverless-chat-app-ai.png",
     iconList: [
       {
