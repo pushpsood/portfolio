@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="8" fill="#1a1a2e"/>
+  <rect x="16" y="46" width="28" height="18" rx="3" fill="none" stroke="#34D399" stroke-width="2"/>
+  <rect x="84" y="46" width="28" height="18" rx="3" fill="none" stroke="#34D399" stroke-width="2"/>
+  <rect x="50" y="80" width="28" height="18" rx="3" fill="none" stroke="#34D399" stroke-width="2"/>
+  <line x1="44" y1="55" x2="84" y2="55" stroke="#34D399" stroke-width="2"/>
+  <line x1="30" y1="64" x2="30" y2="76" stroke="#34D399" stroke-width="2"/>
+  <line x1="30" y1="76" x2="64" y2="80" stroke="#34D399" stroke-width="2"/>
+  <line x1="98" y1="64" x2="98" y2="76" stroke="#34D399" stroke-width="2"/>
+  <line x1="98" y1="76" x2="78" y2="80" stroke="#34D399" stroke-width="2"/>
+  <text x="64" y="28" text-anchor="middle" fill="#34D399" font-size="10" font-family="Arial">Network</text>
+</svg>

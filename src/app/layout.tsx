@@ -8,6 +8,15 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Pushp Sood Portfolio",
   description: "Pushp Sood Software Development Portfolio",
+  metadataBase: new URL("https://www.pushpsood.com"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: "https://www.pushpsood.com",
+    siteName: "Pushp Sood Portfolio",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

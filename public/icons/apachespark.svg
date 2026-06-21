@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="8" fill="#E25A1C"/>
+  <path fill="#fff" d="M64 20L20 44v40l44 24 44-24V44L64 20zm0 8l34 18.5V84L64 102.5 30 84V46.5L64 28zm-20 30l20 11 20-11v22L64 91 44 80V58z"/>
+  <text x="64" y="120" text-anchor="middle" fill="#fff" font-size="10" font-family="Arial">Spark</text>
+</svg>

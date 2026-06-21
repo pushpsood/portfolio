@@ -78,7 +78,7 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Currently developing an AI model to predict optimal routes that avoid roads within a defined perimeter.",
+    title: "Building OneHook.club, where exclusivity meets intimacy.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -102,8 +102,7 @@ export const projects = [
   {
     id: 1,
     title: "Serverless document chat application",
-    des: "This application allows you to ask natural language questions of any PDF document you upload. " +
-        "User: \"test@pushpsood.com\"  Pass: \"testTEST123@\" ",
+    des: "This application allows asking questions to PDFs. Test User: \"test@pushpsood.com\"  Pass: \"testTEST123@\" ",
     img: "/projects/serverless-chat-app-ai.png",
     iconList: [
       {
@@ -187,8 +186,89 @@ export const projects = [
         image: "/icons/cloudflare.svg",
       }
     ],
-    link: "",
-    github: "",
+    link: "https://www.infoherd.com",
+    github: "https://github.com/pushpsood/wpEnterpriseStack/tree/main/infrastructure",
+  },
+  {
+    id: 3,
+    title: "Onehook: One match. One conversation.",
+    des: "A private members' club for those who give and expect undivided attention.",
+    img: "/projects/onehook.png",
+    iconList: [
+      {
+        id: 1,
+        name: "React",
+        image: "/icons/react.svg",
+      },
+      {
+        id: 2,
+        name: "TypeScript",
+        image: "/icons/typescript.svg",
+      },
+      {
+        id: 3,
+        name: "Java",
+        image: "/icons/java.svg",
+      },
+      {
+        id: 4,
+        name: "AWS Lambda",
+        image: "/icons/Lambda.svg",
+      },
+      {
+        id: 5,
+        name: "DynamoDB",
+        image: "/icons/dynamodb.svg",
+      },
+      {
+        id: 6,
+        name: "AWS CDK",
+        image: "/icons/aws-cdk.svg",
+      },
+      {
+        id: 7,
+        name: "Cognito",
+        image: "/icons/cognito.svg",
+      },
+      {
+        id: 8,
+        name: "Redis",
+        image: "/icons/redis.svg",
+      },
+      {
+        id: 9,
+        name: "Tailwind CSS",
+        image: "/icons/tailwindcss.svg",
+      },
+      {
+        id: 10,
+        name: "Docker",
+        image: "/icons/docker.svg",
+      },
+    ],
+    link: "https://onehook.club",
+    github: "https://github.com/pushpsood/onehook",
+  },
+  {
+    id: 4,
+    title: "ParallelConcurrentDistributedProgramming",
+    des: "Resources and working projects to get started with parallel, concurrent, and distributed programming.",
+    img: "/projects/parallelConcurrentDistributedProgramming.jpg",
+    iconList: [
+      { id: 1, name: "Java", image: "/icons/java.svg" },
+      { id: 2, name: "Maven", image: "/icons/maven.svg" },
+      { id: 3, name: "Apache Spark", image: "/icons/apachespark.svg" },
+      { id: 4, name: "IntelliJ IDEA", image: "/icons/intellijidea.svg" },
+      { id: 5, name: "MPI", image: "/icons/mpi.svg" },
+      { id: 6, name: "Git", image: "/icons/git.svg" },
+      { id: 7, name: "Coursera", image: "/icons/coursera.svg" },
+      { id: 8, name: "JUnit", image: "/icons/junit5.svg" },
+      { id: 9, name: "Distributed Computing", image: "/icons/distributed.svg" },
+      { id: 10, name: "Actor Model", image: "/icons/actor.svg" }
+    ],
+
+    link: "https://github.com/pushpsood/ParallelConcurrentDistributedProgrammingConcepts",
+    github: "https://github.com/pushpsood/ParallelConcurrentDistributedProgrammingConcepts",
   }
 ];
 

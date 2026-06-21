@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="8" fill="#C71A36"/>
+  <text x="64" y="52" text-anchor="middle" fill="#fff" font-size="18" font-family="Arial" font-weight="bold">Apache</text>
+  <text x="64" y="80" text-anchor="middle" fill="#fff" font-size="22" font-family="Arial" font-weight="bold">Maven</text>
+  <path fill="#fff" d="M20 90h88v4H20z"/>
+</svg>

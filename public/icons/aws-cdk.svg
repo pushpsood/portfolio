@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="8" fill="#232F3E"/>
+  <path fill="#FF9900" d="M32 10L10 22v20l22 12 22-12V22L32 10zm0 4.4l17.2 9.4L32 33.2 14.8 23.8 32 14.4zM12 25.2l18 9.8v18.4L12 43.6V25.2zm20 28.2V35l18-9.8v18.4L32 53.4z"/>
+  <text x="32" y="38" text-anchor="middle" fill="#FF9900" font-size="10" font-family="Arial" font-weight="bold">CDK</text>
+</svg>
