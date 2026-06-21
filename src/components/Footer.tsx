@@ -22,7 +22,7 @@ const Footer = () => {
             Whether you have questions or just want to say hello, don&apos;t
             hesitate to get in touch. You can reach me by filling out the form
             below or emailing me directly at{" "}
-            <span className="text-purple">pushpsood27@gmail.com</span>.
+            <span className="text-purple">contact@pushpsood.com</span>.
           </p>
           <form
               name="contact-form"
