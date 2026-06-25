@@ -14,6 +14,12 @@ const nextConfig = {
 };
 
 export default withSentryConfig(nextConfig, {
+  // Disable auto-wrapping to avoid incompatibility with the wrapping loader
+  webpack: {
+    autoInstrumentServerFunctions: false,
+    autoInstrumentMiddleware: false,
+    autoInstrumentAppDirectory: false,
+  },
 // For all available options, see:
 // https://github.com/getsentry/sentry-webpack-plugin#options
 
@@ -42,5 +48,7 @@ export default withSentryConfig(nextConfig, {
   hideSourceMaps: true,
 
 // Automatically tree-shake Sentry logger statements to reduce bundle size
-  disableLogger: true,
+  treeshake: {
+    removeDebugLogging: true,
+  },
 });

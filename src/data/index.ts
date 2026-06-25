@@ -101,62 +101,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Serverless document chat application",
-    des: "This application allows asking questions to PDFs. Test User: \"test@pushpsood.com\"  Pass: \"testTEST123@\" ",
-    img: "/projects/serverless-chat-app-ai.png",
+    title: "Parallel, Concurrent, Distributed Program",
+    des: "Resources and working projects to get started with parallel, concurrent, and distributed programming.",
+    img: "/projects/parallelConcurrentDistributedProgramming.jpg",
     iconList: [
-      {
-        id: 1,
-        name: "React",
-        image: "/icons/re.svg",
-      },
-      {
-        id: 2,
-        name: "Node",
-        image: "/icons/nodejs.svg",
-      },
-      {
-        id: 3,
-        name: "Tailwind",
-        image: "/icons/tail.svg",
-      },
-      {
-        id: 4,
-        name: "TypeScript",
-        image: "/icons/ts.svg",
-      },
-      {
-        id: 5,
-        name: "Javascript",
-        image: "/icons/javascript.svg",
-      },
-      {
-        id: 6,
-        name: "Lambda",
-        image: "/icons/Lambda.svg",
-      },
-      {
-        id: 7,
-        name: "PineconeDB",
-        image: "/icons/pinecone-db.svg",
-      },
-      {
-        id: 8,
-        name: "DynamoDB",
-        image: "/icons/dynamodb.svg",
-      },
-      {
-        id: 9,
-        name: "AWS",
-        image: "/icons/amazon-web-services.svg",
-      }
+      { id: 1, name: "Java", image: "/icons/java.svg" },
+      { id: 2, name: "Maven", image: "/icons/maven.svg" },
+      { id: 3, name: "Apache Spark", image: "/icons/apachespark.svg" },
+      { id: 4, name: "IntelliJ IDEA", image: "/icons/intellijidea.svg" },
+      { id: 5, name: "MPI", image: "/icons/mpi.svg" },
+      { id: 6, name: "Git", image: "/icons/git.svg" },
+      { id: 7, name: "Coursera", image: "/icons/coursera.svg" },
+      { id: 8, name: "JUnit", image: "/icons/junit5.svg" },
+      { id: 9, name: "Distributed Computing", image: "/icons/distributed.svg" },
+      { id: 10, name: "Actor Model", image: "/icons/actor.svg" }
     ],
-    link: "https://chatdoc.pushpsood.com/",
-    github: "https://github.com/pushpsood/PDFGenAIChatBot",
+    link: "https://github.com/pushpsood/ParallelConcurrentDistributedProgrammingConcepts",
+    github: "https://github.com/pushpsood/ParallelConcurrentDistributedProgrammingConcepts",
   },
   {
     id: 2,
-    title: "Infoherd: News and Entertainment website",
+    title: "Infoherd: News \& Entertainment website",
     des: "Infoherd provides you with refreshing articles to entertain, refresh everyone",
     img: "/projects/infoherd.jpg",
     iconList: [
@@ -249,26 +214,92 @@ export const projects = [
     link: "https://onehook.club",
     github: "https://github.com/pushpsood/onehook",
   },
+
   {
     id: 4,
-    title: "ParallelConcurrentDistributedProgramming",
-    des: "Resources and working projects to get started with parallel, concurrent, and distributed programming.",
-    img: "/projects/parallelConcurrentDistributedProgramming.jpg",
+    title: "Serverless document chat application",
+    des: "This application allows asking questions to PDFs. Test User: \"test@pushpsood.com\"  Pass: \"testTEST123@\" ",
+    img: "/projects/serverless-chat-app-ai.png",
     iconList: [
-      { id: 1, name: "Java", image: "/icons/java.svg" },
-      { id: 2, name: "Maven", image: "/icons/maven.svg" },
-      { id: 3, name: "Apache Spark", image: "/icons/apachespark.svg" },
-      { id: 4, name: "IntelliJ IDEA", image: "/icons/intellijidea.svg" },
-      { id: 5, name: "MPI", image: "/icons/mpi.svg" },
-      { id: 6, name: "Git", image: "/icons/git.svg" },
-      { id: 7, name: "Coursera", image: "/icons/coursera.svg" },
-      { id: 8, name: "JUnit", image: "/icons/junit5.svg" },
-      { id: 9, name: "Distributed Computing", image: "/icons/distributed.svg" },
-      { id: 10, name: "Actor Model", image: "/icons/actor.svg" }
+      {
+        id: 1,
+        name: "React",
+        image: "/icons/react.svg",
+      },
+      {
+        id: 2,
+        name: "Node",
+        image: "/icons/nodejs.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        image: "/icons/tail.svg",
+      },
+      {
+        id: 4,
+        name: "TypeScript",
+        image: "/icons/ts.svg",
+      },
+      {
+        id: 5,
+        name: "Javascript",
+        image: "/icons/javascript.svg",
+      },
+      {
+        id: 6,
+        name: "Lambda",
+        image: "/icons/Lambda.svg",
+      },
+      {
+        id: 7,
+        name: "PineconeDB",
+        image: "/icons/pinecone-db.svg",
+      },
+      {
+        id: 8,
+        name: "DynamoDB",
+        image: "/icons/dynamodb.svg",
+      },
+      {
+        id: 9,
+        name: "AWS",
+        image: "/icons/amazon-web-services.svg",
+      }
     ],
-
-    link: "https://github.com/pushpsood/ParallelConcurrentDistributedProgrammingConcepts",
-    github: "https://github.com/pushpsood/ParallelConcurrentDistributedProgrammingConcepts",
+    link: "https://chatdoc.pushpsood.com/",
+    github: "https://github.com/pushpsood/PDFGenAIChatBot",
+  },
+  {
+    id: 5,
+    title: "InstaExtract: People not following you back",
+    des: "Script to get list of people not following you back on instagram",
+    img: "/projects/instaExtract.jpg",
+    iconList: [
+      { id: 1, name: "C++", image: "/icons/cpp.svg" },
+      { id: 2, name: "CMake", image: "/icons/cmake.svg" },
+      { id: 3, name: "Instagram API", image: "/icons/instagram.svg" },
+      { id: 4, name: "CLion", image: "/icons/clion.svg" },
+      { id: 5, name: "Git", image: "/icons/git.svg" },
+      { id: 6, name: "Multithreading", image: "/icons/threading.svg" },
+    ],
+    link: "https://youtu.be/TIuU7vGkApU?si=hg5MwZM41hRNHP3-",
+    github: "https://github.com/pushpsood/InstaExtract",
+  },
+  {
+    id: 6,
+    title: "ActualOrigin: Digital \& Social Media",
+    des: "Coming Soon with the moto \"creativity is intelligence having fun.\"",
+    img: "/projects/actualOrigin.jpg",
+    iconList: [
+      { id: 1, name: "Photoshop", image: "/icons/photoshop.svg" },
+      { id: 2, name: "Premiere Pro", image: "/icons/premiere.svg" },
+      { id: 3, name: "Instagram", image: "/icons/instagram.svg" },
+      { id: 4, name: "SEO", image: "/icons/seo.svg" },
+      { id: 5, name: "Youtube", image: "/icons/youtube.svg" },
+      { id: 6, name: "Email", image: "/icons/email.svg" },
+    ],
+    link: "https://actualorigin.com",
   }
 ];
 
